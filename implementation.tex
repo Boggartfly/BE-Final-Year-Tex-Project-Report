@@ -1,0 +1,35 @@
+\chapter{IMPLEMENTATION}
+
+\section{Hardware}
+
+\hspace{0.9cm} The main system has i7, 6700k processor with 16gb DDR4 RAM clocked at 2133MHz.
+Graphics Processing Unit (GPU) which is Nvidia Titan X (Maxwell Gen.) 12gb GDDR5 VRAM. This particular system was running Windows 10 Pro x64 build 1607.
+For the sake of comparison we implemented the project on MacBook Air 13 inch early 2015 edition with specs of intel core i5 at 1.6kHz and 4gb DDR 3 1600MHz.
+This particular system did not possess a discrete GPU.
+Therefore it provided a good benchmark analysis of a graphics enabled version vs CPU only version of the project.
+MacBook Air was running MacOS sierra as the operating system.
+\begin{table}[]
+	\centering
+	\caption{SYSTEM CONFIGURATION FOR EXPERMIENTAL SYSTEMS}
+	\label{table-1}
+	\vspace{0.9cm}
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		Processor                                                                 & \begin{tabular}[c]{@{}l@{}}Physical\\ RAM\end{tabular}                                    & \begin{tabular}[c]{@{}l@{}}CUDA\\ GPU name\end{tabular}                                           & \begin{tabular}[c]{@{}l@{}}MATLAB\\ GPU support\end{tabular} & \begin{tabular}[c]{@{}l@{}}Operating system\\ and build\end{tabular}                                                  \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Intel\\ Core i7\\ 6700k @\\ 4 GHz\end{tabular} & \begin{tabular}[c]{@{}l@{}}2 × 8 GB\\ Kingston\\ DDR4 Non\\ ECC @\\ 2133 MHz\end{tabular} & \begin{tabular}[c]{@{}l@{}}NVIDIA\\ Titan X\\ Maxwell\\ Architecture\\ 12 GB\\ GDDR5\end{tabular} & Yes                                                          & \begin{tabular}[c]{@{}l@{}}Windows 10\\ 64 bit Build 1607,\\ Custom PC Build\end{tabular}                             \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Intel\\ Core\\ i5 @\\ 1.6 GHz\end{tabular}     & \begin{tabular}[c]{@{}l@{}}4 GB\\ DDR3 Non\\ ECC @\\ 1600 MHz\end{tabular}                & N/A                                                                                               & No                                                           & \begin{tabular}[c]{@{}l@{}}MacOS Sierra\\ 10.12.2 Build\\ 16C67 on\\ MacBook Air\\ Early 2015,\\ 13 inch\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\section{Software}
+
+\hspace{0.9cm} Matlab was chosen as the software to build the project. Dealing with large amounts of data meant that we needed a quick way to evaluate results and import and export data conveniently. All these features were readily made available by Matlab and hence it was the ideal software for completing the project.The GPU acceleration provided by Matlab is through the Cuda runtime which is transparently available to the programs with only slight modifications required for GPU based code.
+\\
+The following steps are taken in software to execute the project:\\
+\begin{enumerate}
+	\item Import data from the data source.
+	\item Run transformation of the dataset to an image.
+\end{enumerate}
+
+
