@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.12)  21 APR 2017 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.12)  21 APR 2017 00:12
 entering extended mode
 **./report.tex
 (report.tex
@@ -408,26 +408,22 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
 <1.png, id=204, 626.34pt x 524.45938pt>
 File: 1.png Graphic file (type png)
  <use 1.png>
-Package pdftex.def Info: 1.png used on input line 24.
+Package pdftex.def Info: 1.png used on input line 11.
 (pdftex.def)             Requested size: 180.67499pt x 151.28105pt.
 
 <2.png, id=205, 557.58313pt x 494.34688pt>
 File: 2.png Graphic file (type png)
  <use 2.png>
-Package pdftex.def Info: 2.png used on input line 31.
+Package pdftex.def Info: 2.png used on input line 18.
 (pdftex.def)             Requested size: 180.67499pt x 160.17807pt.
 
 <3.png, id=206, 229.85875pt x 65.24374pt>
 File: 3.png Graphic file (type png)
  <use 3.png>
-Package pdftex.def Info: 3.png used on input line 38.
+Package pdftex.def Info: 3.png used on input line 25.
 (pdftex.def)             Requested size: 144.54pt x 41.0291pt.
 
 
@@ -436,66 +432,63 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 56.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 43.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 43.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [7
 
- <./1.png>] [8 <./2.png> <./3.png>]
+ <./1.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 83.
+               Default added (so using `tbp') on input line 70.
 
-<4.png, id=233, 560.0925pt x 631.86063pt>
+[8 <./2.png> <./3.png>] <4.png, id=232, 560.0925pt x 631.86063pt>
 File: 4.png Graphic file (type png)
  <use 4.png>
-Package pdftex.def Info: 4.png used on input line 98.
+Package pdftex.def Info: 4.png used on input line 85.
 (pdftex.def)             Requested size: 144.54pt x 163.05542pt.
 
-<5.png, id=234, 522.95375pt x 470.25688pt>
+<5.png, id=233, 522.95375pt x 470.25688pt>
 File: 5.png Graphic file (type png)
  <use 5.png>
-Package pdftex.def Info: 5.png used on input line 105.
+Package pdftex.def Info: 5.png used on input line 92.
 (pdftex.def)             Requested size: 180.67499pt x 162.46841pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<6.png, id=235, 506.89375pt x 555.57562pt>
+<6.png, id=234, 506.89375pt x 555.57562pt>
 File: 6.png Graphic file (type png)
  <use 6.png>
-Package pdftex.def Info: 6.png used on input line 112.
+Package pdftex.def Info: 6.png used on input line 99.
 (pdftex.def)             Requested size: 180.67499pt x 198.02335pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<7.png, id=236, 565.61313pt x 477.785pt>
+<7.png, id=235, 565.61313pt x 477.785pt>
 File: 7.png Graphic file (type png)
  <use 7.png>
-Package pdftex.def Info: 7.png used on input line 119.
+Package pdftex.def Info: 7.png used on input line 106.
 (pdftex.def)             Requested size: 252.94499pt x 213.66711pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<8.png, id=237, 496.85625pt x 437.13312pt>
+<8.png, id=236, 496.85625pt x 437.13312pt>
 File: 8.png Graphic file (type png)
  <use 8.png>
-Package pdftex.def Info: 8.png used on input line 126.
+Package pdftex.def Info: 8.png used on input line 113.
 (pdftex.def)             Requested size: 252.94499pt x 222.5414pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (conclusion_future.tex [9 <./4.png>] [10 <./5.png> <./6.png>] [11 <./7.png> <
-./8.png>]
+) (conclusion_future.tex [9 <./4.png> <./5.png>] [10 <./6.png> <./7.png>]
+[11 <./8.png>]
 Chapter 5.
 ) (ref.tex [12
 
@@ -562,9 +555,9 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 5908 strings out of 493333
- 84896 string characters out of 3139194
- 177242 words of memory out of 3000000
+ 5906 strings out of 493333
+ 84884 string characters out of 3139194
+ 176241 words of memory out of 3000000
  9287 multiletter control sequences out of 15000+200000
  10129 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -576,9 +569,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (21 pages, 4084571 bytes).
+Output written on report.pdf (21 pages, 4087926 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
  222 words of extra memory for PDF output out of 10000 (max. 10000000)
 
