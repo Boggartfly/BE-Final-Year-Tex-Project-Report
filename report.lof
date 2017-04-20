@@ -5,4 +5,9 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Customer records and attributes as an image.}}{7}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 3D surface plot of customer records and attributes.}}{8}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Structure of neural network.}}{8}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion plot for neural network.}}{9}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Error histogram for the neural network}}{10}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Receiver operating characteristic (ROC) curves.}}{10}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Performance plot for the neural network.}}{11}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Training state for the neural network.}}{11}{figure.4.8}
 \addvspace {10\p@ }
